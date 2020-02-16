@@ -1,0 +1,243 @@
+/*---- Color variables ----*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.presentation-title-JA, .presentation-title-oclock {
+  font-family: 'Kaushan Script', cursive;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.presentation-text-wrapper {
+  padding: 3em;
+}
+
+.presentation-text {
+  font-size: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.presentation-subtitle {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-top: .8em;
+  margin-bottom: .8em;
+  margin-left: .7em;
+  color: #0AC3A7;
+}
+
+#my-name {
+  font-family: 'Lobster', cursive;
+  font-size: 1.9em;
+  color: #F95658;
+}
+
+strong {
+  color: #F95658;
+}
+
+#projects-button {
+  color: #0AC3A7;
+}
+
+.description-project {
+  width: 60vw;
+}
+
+.project-info-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 2em;
+}
+
+.project-info-box {
+  width: 30%;
+}
+
+.link-button {
+  background-color: white;
+  color: #F95658;
+  border: 2px solid #F95658;
+  border-radius: 7px;
+}
+
+.link-button:hover {
+  background-color: #F95658;
+  color: white;
+  border: 2px solid #F95658;
+  border-radius: 7px;
+}
+
+.project-button {
+  font-size: 1.7em;
+  padding-top: .7em;
+  padding-bottom: .7em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+p {
+  text-align: justify;
+}
+
+.projects {
+  border: 1px solid black;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Fugaz One', cursive;
+  font-size: 2em;
+}
+
+#study-cards, #break-free, #portfolio {
+  background-color: #F8F9FA;
+}
+
+#study-cards:hover {
+  background-image: url(../img/fiches.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#break-free:hover {
+  background-image: url(../img/break-free.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.project-link, .project-link:visited {
+  color: #F95658;
+}
+
+.wrapper, #picture-JA, #presentation-JA {
+  height: 90vh;
+}
+
+#picture-JA {
+  width: 40%;
+  background-image: url(../img/julie-4.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+#presentation-JA {
+  width: 60%;
+}
+
+.presentation-title-JA {
+  margin-bottom: 2em;
+  margin-left: 3em;
+}
+
+#wordpress-button {
+  margin-top: 4em;
+  height: 3em;
+}
+
+#wrapper-about, #picture-oclock, #presentation-oclock {
+  height: 90vh;
+}
+
+#picture-oclock {
+  width: 40%;
+  background-image: url(../img/oclock.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #0AC3A7;
+}
+
+#presentation-oclock {
+  width: 60%;
+}
+
+#oclock-button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 1em;
+  width: 50%;
+  height: 2em;
+}
+
+#oclock-button a {
+  color: #F95658;
+}
+
+.presentation-title-oclock {
+  margin-bottom: 0em;
+  text-align: center;
+  font-size: 2.2em;
+}
+
+/*---- Break-Free ---- */
+#picture-break-free {
+  width: 40%;
+  background-image: url(../img/break-free.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/*---- Study-cards ---- */
+#picture-study-cards {
+  width: 40%;
+  background-image: url(../img/fiches.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#picture-JA-contact {
+  width: 40%;
+  background-image: url(../img/julie-2.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+#contact-form {
+  width: 20vw;
+}
+
+#contact-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer {
+  background-color: #F95658;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #0AC3A7;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
